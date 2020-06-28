@@ -48,35 +48,37 @@ The following questions were asked of the data:
  - The crime occurrence in Toronto is increasing from 2014 to 2019.
 
 #### 2. What time of the year the frequency of crime is highest? 
-     a.	Correlation of crime with different seasons: 
-        - Based on the 6-year average, the total number of crimes peak in the month of July (3606 cases) while the month of February is lowest (2,484 cases).
+ - Correlation of crime with different seasons: 
+    - Based on the 6-year average, the total number of crimes peak in the month of July (3606 cases) while the month of February is lowest (2,484 cases).
 
-        - Assault crime follows the same pattern. The peak is in summer season (Jun, Jul, Aug) and through in winter season (Dec, Jan, Feb)
-        
-        - Other types of crime such as Break and Enter, Auto Theft, Robbery have different seasonal patterns than Assault. The peak is in October and February is the lowest. 
+    - Assault crime follows the same pattern. The peak is in summer season (Jun, Jul, Aug) and through in winter season (Dec, Jan, Feb)
+
+    - Other types of crime such as Break and Enter, Auto Theft, Robbery have different seasonal patterns than Assault. The peak is in October and February is the lowest. 
     
-     b. Correlation of crime with time of the day
-        - Lowest crime occurred in a day is early in the morning (around 6 am)
-        
-        - "Assault" and "Break and Enter" crime occurred most at mid-night while "Auto Theft" is at peak around 10pm and "Robbery" at 9pm.
-        
-        - At noon, we see a sudden spike for "Assault", "Break n Enter", "Auto Theft" 
+- Correlation of crime with time of the day
+    - Lowest crime occurred in a day is early in the morning (around 6 am)
+
+    - "Assault" and "Break and Enter" crime occurred most at mid-night while "Auto Theft" is at peak around 10pm and "Robbery" at 9pm.
+
+    - At noon, we see a sudden spike for "Assault", "Break n Enter", "Auto Theft" 
 
 #### 3. Crime by Neighbourhood
-     a.	Which neighborhoods experience the highest and lowest crime rates in Toronto?
-     After analysing the data, we see the top 10 most dangerous neighbourhoods in the dataframe below:
+ - Which neighborhoods experience the highest and lowest crime rates in Toronto?
+    - After analysing the data, we see the top 10 most dangerous neighbourhoods in the dataframe below:
     ![Most-crime-neighbourhoods](Image Output/Most-crime-neighbourhoods.png)
 
-     We also see the top 10 most safe neighbourhoods in the dataframe below:
-     ![Least-crime-neighbourhoods](Image Output/Least-crime-neighbourhoods.png)   
+    - We also see the top 10 most safe neighbourhoods in the dataframe below:
+    ![Least-crime-neighbourhoods](Image Output/Least-crime-neighbourhoods.png)   
 
-    A heatmap was created with the above neighbourhoods as symbol markers, to get an idea of their locations:
-      ![crime-heatmap-symbols](Image Output/crime-heatmap-symbols.png)
-        * 60% of the top 10 most dangerous neighbours appear to be in the Toronto downtown area, with the rest spread quite far away from each other.
-        * The Yonge-St.Clair neighbourhood  is considered a safe neighbourhood with less crimes - this is interesting given its proximity to downtown Toronto where crime cases are high.
-        * There appear to be a marginally higher number of safer neighbourhoods in the west end of Toronto.
+    - A heatmap was created with the above neighbourhoods as symbol markers, to get an idea of their locations:
+    ![crime-heatmap-symbols](Image Output/crime-heatmap-symbols.png)
+     * 60% of the top 10 most dangerous neighbours appear to be in the Toronto downtown area, with the rest spread quite far away from each other.
+
+     * The Yonge-St.Clair neighbourhood  is considered a safe neighbourhood with less crimes - this is interesting given its proximity to downtown Toronto where crime cases are high.
+
+     * There appear to be a marginally higher number of safer neighbourhoods in the west end of Toronto.
         
-        b. How close were police stations to where the crime occurred?
+- b. How close were police stations to where the crime occurred?
 
 #### 4. In what kinds of properties do the following crimes occur? (house, commercial, apartment, etc)
     a.	Break-and-enter
