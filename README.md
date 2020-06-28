@@ -48,14 +48,14 @@ The following questions were asked of the data:
  - The crime occurrence in Toronto is increasing from 2014 to 2019.
 
 #### 2. What time of the year the frequency of crime is highest? 
- - Correlation of crime with different seasons: 
+ - **Correlation of crime with different seasons:**
     - Based on the 6-year average, the total number of crimes peak in the month of July (3606 cases) while the month of February is lowest (2,484 cases).
 
     - Assault crime follows the same pattern. The peak is in summer season (Jun, Jul, Aug) and through in winter season (Dec, Jan, Feb)
 
     - Other types of crime such as Break and Enter, Auto Theft, Robbery have different seasonal patterns than Assault. The peak is in October and February is the lowest. 
     
-- Correlation of crime with time of the day
+- **Correlation of crime with time of the day:**
     - Lowest crime occurred in a day is early in the morning (around 6 am)
 
     - "Assault" and "Break and Enter" crime occurred most at mid-night while "Auto Theft" is at peak around 10pm and "Robbery" at 9pm.
@@ -63,7 +63,7 @@ The following questions were asked of the data:
     - At noon, we see a sudden spike for "Assault", "Break n Enter", "Auto Theft" 
 
 #### 3. Crime by Neighbourhood
- - Which neighborhoods experience the highest and lowest crime rates in Toronto?
+ - **Which neighborhoods experience the highest and lowest crime rates in Toronto?**
     - After analysing the data, we see the top 10 most dangerous neighbourhoods in the dataframe below:
     ![Most-crime-neighbourhoods](Image-Output/Most-crime-neighbourhoods.png)
 
@@ -78,14 +78,14 @@ The following questions were asked of the data:
 
      * There appear to be a marginally higher number of safer neighbourhoods in the west end of Toronto.
         
-- b. How close were police stations to where the crime occurred?
+- **How close were police stations to where the crime occurred?**
     - Google Places API was called to find police stations within 5000m of the top 10 neighbourhoods and these were added as marker symbols on the heatmap:
      ![crime-heatmap-markers](Image-Output/crime-heatmap-markers.png)   
 
     - It appears that Toronto Police 52 Division is the nearest police station for 6 of the top 10 neighbourhoods with most crimes. This shows that the neighbourhoods are close to one another and also calls to question whether this particular division might be overwhelmed with crime incidents. It would be interesting to dive deeper and find out whether there is a correlation between crime rates and government funding for each police divisions.
 
 #### 4. In what kinds of properties do the following crimes occur? (house, commercial, apartment, etc)
-- Break-and-enter
+- **Break-and-enter**
      ![breakenter_premise](Image-Output/breakenter_premise.png)
      ![breakenter_premise_pie](Image-Output/breakenter_premise_pie.png) 
 
@@ -98,7 +98,7 @@ The following questions were asked of the data:
     - Even though House B&Es are decreasing over the years, the pie chart shows that it still has the highest total number of incidents.
 
 
-- Robbery
+- **Robbery**
      ![robbery_premise](Image-Output/robbery_premise.png)
      ![robbery_premise_pie](Image-Output/robbery_premise_pie.png)  
 
@@ -110,7 +110,7 @@ The following questions were asked of the data:
     
     - Robbery is three times more likely to happen in apartments than in houses
 
-- Assault
+- **Assault**
      ![assault_premise](Image-Output/assault_premise.png) ![assault_premise_pie](Image-Output/assault_premise_pie.png)  
 
     - Assaults in all premises are generally in an increasing trend
@@ -120,7 +120,7 @@ The following questions were asked of the data:
     - Assaults are almost three times more likely to happen in apartments than in houses
 
 #### 5. Is crime decreasing/increasing over the years?
-- Correlation of crime with current economy
+- **Correlation of crime with current economy**
 
 
 
