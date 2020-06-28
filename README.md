@@ -22,7 +22,7 @@ This project aims to analyze and visualize crime cases in Toronto from 2014-2019
 
     * A `Data Output` folder that contains our output files after the initial data cleaning
 
-    * An `Image Outout` folder that contains the various visualizations created by the analysis
+    * An `Image-Output` folder that contains the various visualizations created by the analysis
     
 ## Notes and Resources
 
@@ -65,13 +65,13 @@ The following questions were asked of the data:
 #### 3. Crime by Neighbourhood
  - Which neighborhoods experience the highest and lowest crime rates in Toronto?
     - After analysing the data, we see the top 10 most dangerous neighbourhoods in the dataframe below:
-![Most-crime-neighbourhoods](Image Output/Most-crime-neighbourhoods.png)
+    ![Most-crime-neighbourhoods](Image-Output/Most-crime-neighbourhoods.png)
 
     - We also see the top 10 most safe neighbourhoods in the dataframe below:
-![Least-crime-neighbourhoods](Image Output/Least-crime-neighbourhoods.png)   
+    ![Least-crime-neighbourhoods](Image-Output/Least-crime-neighbourhoods.png)   
 
     - A heatmap was created with the above neighbourhoods as symbol markers, to get an idea of their locations:
-![crime-heatmap-symbols](Image Output/crime-heatmap-symbols.png)
+    ![crime-heatmap-symbols](Image-Output/crime-heatmap-symbols.png)
      * 60% of the top 10 most dangerous neighbours appear to be in the Toronto downtown area, with the rest spread quite far away from each other.
 
      * The Yonge-St.Clair neighbourhood  is considered a safe neighbourhood with less crimes - this is interesting given its proximity to downtown Toronto where crime cases are high.
@@ -79,14 +79,48 @@ The following questions were asked of the data:
      * There appear to be a marginally higher number of safer neighbourhoods in the west end of Toronto.
         
 - b. How close were police stations to where the crime occurred?
+    - Google Places API was called to find police stations within 5000m of the top 10 neighbourhoods and these were added as marker symbols on the heatmap:
+     ![crime-heatmap-markers](Image-Output/crime-heatmap-markers.png)   
+
+    - It appears that Toronto Police 52 Division is the nearest police station for 6 of the top 10 neighbourhoods with most crimes. This shows that the neighbourhoods are close to one another and also calls to question whether this particular division might be overwhelmed with crime incidents. It would be interesting to dive deeper and find out whether there is a correlation between crime rates and government funding for each police divisions.
 
 #### 4. In what kinds of properties do the following crimes occur? (house, commercial, apartment, etc)
-    a.	Break-and-enter
-    b.	Robbery
-    c.	Assault
+- Break-and-enter
+     ![breakenter_premise](Image-Output/breakenter_premise.png)
+     ![breakenter_premise_pie](Image-Output/breakenter_premise_pie.png) 
+
+    - For Break and Enter (B&E), in 2014, there are almost twice the incidents happening in houses compared with Commercial or Apartment premises.
+    
+    - However, House B&Es are decreasing over time while commercial B&Es are increasing. At the end of 2019, there are almost 1000 more B&E cases for commercial than houses
+    
+    - There is a decrease in the number of incidents for apartments from 2015 to 2016 and this then started increasing at a steady rate since 2016, finally become more rampant than house B&Es.
+    
+    - Even though House B&Es are decreasing over the years, the pie chart shows that it still has the highest total number of incidents.
+
+
+- Robbery
+     ![robbery_premise](Image-Output/robbery_premise.png)
+     ![robbery_premise_pie](Image-Output/robbery_premise_pie.png)  
+
+    - Incidents in apartment and houses are pretty steady over the six years.
+    
+    - Majority of robberies happen outside and in commercial areas
+    
+    - Robberies happening outside started to decrease from 2017, however, it is still twice as much incidents as the second popular premise-commerical by the end of 2019
+    
+    - Robbery is three times more likely to happen in apartments than in houses
+
+- Assault
+     ![assault_premise](Image-Output/assault_premise.png) ![assault_premise_pie](Image-Output/assault_premise_pie.png)  
+
+    - Assaults in all premises are generally in an increasing trend
+    
+    - Assaults in apartments are most likely and is increasing at the highest rate
+    
+    - Assaults are almost three times more likely to happen in apartments than in houses
 
 #### 5. Is crime decreasing/increasing over the years?
-    a.  Correlation of crime with current economy
+- Correlation of crime with current economy
 
 
 
