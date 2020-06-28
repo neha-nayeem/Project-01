@@ -65,13 +65,13 @@ The following questions were asked of the data:
 #### 3. Crime by Neighbourhood
  - Which neighborhoods experience the highest and lowest crime rates in Toronto?
     - After analysing the data, we see the top 10 most dangerous neighbourhoods in the dataframe below:
-    ![Most-crime-neighbourhoods](Image Output/Most-crime-neighbourhoods.png)
+![Most-crime-neighbourhoods](Image Output/Most-crime-neighbourhoods.png)
 
     - We also see the top 10 most safe neighbourhoods in the dataframe below:
-    ![Least-crime-neighbourhoods](Image Output/Least-crime-neighbourhoods.png)   
+![Least-crime-neighbourhoods](Image Output/Least-crime-neighbourhoods.png)   
 
     - A heatmap was created with the above neighbourhoods as symbol markers, to get an idea of their locations:
-    ![crime-heatmap-symbols](Image Output/crime-heatmap-symbols.png)
+![crime-heatmap-symbols](Image Output/crime-heatmap-symbols.png)
      * 60% of the top 10 most dangerous neighbours appear to be in the Toronto downtown area, with the rest spread quite far away from each other.
 
      * The Yonge-St.Clair neighbourhood  is considered a safe neighbourhood with less crimes - this is interesting given its proximity to downtown Toronto where crime cases are high.
