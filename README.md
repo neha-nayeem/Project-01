@@ -40,20 +40,27 @@ This project aims to analyze and visualize crime cases in Toronto from 2014-2019
 ## Questions and Observations
 The following questions were asked of the data:
 
-#### 1. What are the most common / least common crimes in Toronto?
+#### 1a). What are the most common / least common crimes in Toronto?
  - From 2014 to 2019, Assault is by far the most common crime with occurrences over 110,000, it accounts for 49% of total crimes. It is more than double the number of incidents for the second most common crime Break and Enter.
 
  - Homicide is the least common crime over the 6 year period and only accounts for less than 0.5% of the total crime.
+ 
+#### 1 b). What are the total number of crimes in 2014-2019 and are there any trends?
  
  - The crime occurrence in Toronto is increasing from 2014 to 2019.
 
 #### 2. What time of the year the frequency of crime is highest? 
  - **Correlation of crime with different seasons:**
-    - Based on the 6-year average, the total number of crimes peak in the month of July (3606 cases) while the month of February is lowest (2,484 cases).
+   #### Observations
+   1. Based on the 6-year average, the total number of crimes peak in the month of July (3606 cases) while the month of February is lowest (2,484 cases). There are more crimes in summer season then in winter season.
+<br>
 
-    - Assault crime follows the same pattern. The peak is in summer season (Jun, Jul, Aug) and through in winter season (Dec, Jan, Feb)
-
-    - Other types of crime such as Break and Enter, Auto Theft, Robbery have different seasonal patterns than Assault. The peak is in October and February is the lowest. 
+   2. Individual type of crime have different patterns. However, Feburary is the lowest point across all type of crimes. 
+ <br>
+ 
+   3. For Assault, the peak is in summer season (Jun, Jul, Aug). Break and Enter, Auto Theft, Robbery have peaks in October.
+   
+   Note: Due to the large difference in Y axies, Total number of Crime and Assualt are displayed on separate graph as B&E, Auto Theft and Robbery
     
 - **Correlation of crime with time of the day:**
     - Lowest crime occurred in a day is early in the morning (around 6 am)
@@ -83,6 +90,9 @@ The following questions were asked of the data:
      ![crime-heatmap-markers](Image-Output/crime-heatmap-markers.png)   
 
     - It appears that Toronto Police 52 Division is the nearest police station for 6 of the top 10 neighbourhoods with most crimes. This shows that the neighbourhoods are close to one another and also calls to question whether this particular division might be overwhelmed with crime incidents. It would be interesting to dive deeper and find out whether there is a correlation between crime rates and government funding for each police divisions.
+
+- **Where in Toronto are Auto Theft, Break and Enter and Robbery likely to occur?
+  -  Break and Enter and Robbery’s scatter pattern are consistent with the Toronto Crime Heat Map, they are most likely to occur in the most dangerous Downtown area. Auto Theft does not follow the same pattern and appeared to be scattered all over the city.
 
 #### 4. In what kinds of properties do the following crimes occur? (house, commercial, apartment, etc)
 - **Break-and-enter**
