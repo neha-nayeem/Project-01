@@ -89,7 +89,7 @@ The following questions were asked of the data:
 
     - It appears that Toronto Police 52 Division is the nearest police station for 6 of the top 10 neighbourhoods with most crimes. This shows that the neighbourhoods are close to one another and also calls to question whether this particular division might be overwhelmed with crime incidents. It would be interesting to dive deeper and find out whether there is a correlation between crime rates and government funding for each police divisions.
 
-- **Where in Toronto are Auto Theft, Break and Enter and Robbery likely to occur?
+- **Where in Toronto are Auto Theft, Break and Enter and Robbery likely to occur?**
   -  Break and Enter and Robbery’s scatter pattern are consistent with the Toronto Crime Heat Map, they are most likely to occur in the most dangerous Downtown area. Auto Theft does not follow the same pattern and appeared to be scattered all over the city.
 
 #### 4. In what kinds of properties do the following crimes occur? (house, commercial, apartment, etc)
