@@ -26,7 +26,7 @@ This project aims to analyze and visualize crime cases in Toronto from 2014-2019
     
 ## Notes and Resources
 
-* A `config.py` file will be required for the notebook to run properly. This should contains the Google API key needed to make the API calls. 
+* A `config.py` file will be required for the notebook to run properly. This should contain the Google API key needed to make the API calls. 
 
 * The following datasets were used:
     - Crime data from Toronto Police Open Data: https://data.torontopolice.on.ca/pages/open-data
