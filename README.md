@@ -55,11 +55,9 @@ The following questions were asked of the data:
 #### 2. What time of the year the frequency of crime is highest? 
  - **Correlation of crime with different seasons:**
     - Based on the 6-year average, the total number of crimes peak in the month of July (3606 cases) while the month of February is lowest (2,484 cases). There are more crimes in summer season then in winter season.
-<br>
 
     - Individual type of crime have different patterns. However, Feburary is the lowest point across all type of crimes. 
- <br>
- 
+
     - For Assault, the peak is in summer season (Jun, Jul, Aug). Break and Enter, Auto Theft, Robbery have peaks in October.
     
 - **Correlation of crime with time of the day:**
