@@ -16,7 +16,7 @@ This project aims to analyze and visualize crime cases in Toronto from 2014-2019
 
 * Our project folder contains:
 
-    * A Jupyter notebook named `Project 1.ipynb` to run the analysis. The notebook also contains observations and insights that were made looking at the data (this is also below under *Questions and Observations*).
+    * A Jupyter notebook named `Project-1.ipynb` to run the analysis. The notebook also contains observations and insights that were made looking at the data (this is also below under *Questions and Observations*).
 
     * A `Data` folder that contains the CSV files downloaded in from open data websites (under `Notes and Resources` below)
 
@@ -43,7 +43,7 @@ This project aims to analyze and visualize crime cases in Toronto from 2014-2019
 ## Questions and Observations
 The following questions were asked of the data:
 
-#### 1a). What are the most common / least common crimes in Toronto?
+#### 1 a). What are the most common / least common crimes in Toronto?
  - From 2014 to 2019, Assault is by far the most common crime with occurrences over 110,000, it accounts for 49% of total crimes. It is more than double the number of incidents for the second most common crime Break and Enter.
 
  - Homicide is the least common crime over the 6 year period and only accounts for less than 0.5% of the total crime.
@@ -54,14 +54,13 @@ The following questions were asked of the data:
 
 #### 2. What time of the year the frequency of crime is highest? 
  - **Correlation of crime with different seasons:**
-   #### Observations
-   1. Based on the 6-year average, the total number of crimes peak in the month of July (3606 cases) while the month of February is lowest (2,484 cases). There are more crimes in summer season then in winter season.
+    - Based on the 6-year average, the total number of crimes peak in the month of July (3606 cases) while the month of February is lowest (2,484 cases). There are more crimes in summer season then in winter season.
 <br>
 
-   2. Individual type of crime have different patterns. However, Feburary is the lowest point across all type of crimes. 
+    - Individual type of crime have different patterns. However, Feburary is the lowest point across all type of crimes. 
  <br>
  
-   3. For Assault, the peak is in summer season (Jun, Jul, Aug). Break and Enter, Auto Theft, Robbery have peaks in October.
+    - For Assault, the peak is in summer season (Jun, Jul, Aug). Break and Enter, Auto Theft, Robbery have peaks in October.
     
 - **Correlation of crime with time of the day:**
     - Lowest crime occurred in a day is early in the morning (around 6 am)
