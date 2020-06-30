@@ -13,7 +13,7 @@ year,month,GDP_%_change
 2014,December,0.3
 2015,January,-0.2
 2015,February,0
-2015,March,
+2015,March,0
 2015,April,-0.1
 2015,May,-0.2
 2015,June,0.5
@@ -43,7 +43,7 @@ year,month,GDP_%_change
 2017,June,0.3
 2017,July,0
 2017,August,-0.1
-2017,September,
+2017,September,0
 2017,October,0
 2017,November,0.4
 2017,December,0.1
