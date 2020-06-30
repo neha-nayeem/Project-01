@@ -30,12 +30,15 @@ This project aims to analyze and visualize crime cases in Toronto from 2014-2019
 
 * The following datasets were used:
     - Crime data from Toronto Police Open Data: https://data.torontopolice.on.ca/pages/open-data
+    - Monthly GDP growth rates of Canada: https://www150.statcan.gc.ca/
     
 * After data cleaning, we noticed that the total Major Crime Indicator (MCI) dataset listed five different kinds of crimes: assault, auto theft, break and enter, robbery and theft over. However, it did not contain bicycle theft and homicide data, although this was available separately. To get all seven types of crimes, we needed to add data from bicycle theft and homicide files.  
 
 * In addition, the format of bicycle theft and homicide data were different to MCI data, for e.g. they were missing some columns like “occurrence month” and the date was in a different format. In order to get the final dataset, we needed to rename the columns of bicycle theft and homicide to make them consistent with the MCI file.
 
 * There are two types of dates in the data sets, reported date and occurrence date. The reported dates are sometimes delayed with respect to the occurrence so we analyzed data based on occurrence dates between 2014 and 2019 and not the reported date. 
+
+* We are using Canada GDP growth rates to represent Toronto as there is no data available for Toronto.
 
 ## Questions and Observations
 The following questions were asked of the data:
@@ -59,8 +62,6 @@ The following questions were asked of the data:
  <br>
  
    3. For Assault, the peak is in summer season (Jun, Jul, Aug). Break and Enter, Auto Theft, Robbery have peaks in October.
-   
-   Note: Due to the large difference in Y axies, Total number of Crime and Assualt are displayed on separate graph as B&E, Auto Theft and Robbery
     
 - **Correlation of crime with time of the day:**
     - Lowest crime occurred in a day is early in the morning (around 6 am)
@@ -131,7 +132,8 @@ The following questions were asked of the data:
 
 #### 5. Is crime decreasing/increasing over the years?
 - **Correlation of crime with current economy**
-
+    - The number of crimes occurred in Toronto has weak correlation with GDP growth rate.
+    - The GDP has stable growth rate.
 
 
 
