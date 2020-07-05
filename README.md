@@ -47,10 +47,13 @@ The following questions were asked of the data:
  - From 2014 to 2019, Assault is by far the most common crime with occurrences over 110,000, it accounts for 49% of total crimes. It is more than double the number of incidents for the second most common crime Break and Enter.
 
  - Homicide is the least common crime over the 6 year period and only accounts for less than 0.5% of the total crime.
+
+ ![Toronto-crime-numbers](Image-Output/Toronto-Crime-Numbers-2014-2019.png)
  
 #### 1 b). What are the total number of crimes in 2014-2019 and are there any trends?
  
  - The crime occurrence in Toronto is increasing from 2014 to 2019.
+ ![Toronto-crime-vs-years](Image-Output/Toronto-crimes-vs-Years-Line-Chart.png)
 
 #### 2. What time of the year the frequency of crime is highest? 
  - **Correlation of crime with different seasons:**
@@ -59,13 +62,18 @@ The following questions were asked of the data:
     - Individual type of crime have different patterns. However, Feburary is the lowest point across all type of crimes. 
 
     - For Assault, the peak is in summer season (Jun, Jul, Aug). Break and Enter, Auto Theft, Robbery have peaks in October.
-    
+    ![Toronto-crime-seasonality](Image-Output/Crime_byMonth.png)  
+    ![Toronto-crime-seasonality-other](Image-Output/Others_byMonth.png)  
+
 - **Correlation of crime with time of the day:**
     - Lowest crime occurred in a day is early in the morning (around 6 am)
 
     - "Assault" and "Break and Enter" crime occurred most at mid-night while "Auto Theft" is at peak around 10pm and "Robbery" at 9pm.
 
     - At noon, we see a sudden spike for "Assault", "Break n Enter", "Auto Theft" 
+
+    ![Toronto-crime-time](Image-Output/major_crime_24hr.png)   
+    ![Toronto-crime-time-other](Image-Output/Others_crime_24hr.png)   
 
 #### 3. Crime by Neighbourhood
  - **Which neighborhoods experience the highest and lowest crime rates in Toronto?**
@@ -91,6 +99,9 @@ The following questions were asked of the data:
 
 - **Where in Toronto are Auto Theft, Break and Enter and Robbery likely to occur?**
   -  Break and Enter and Robbery’s scatter pattern are consistent with the Toronto Crime Heat Map, they are most likely to occur in the most dangerous Downtown area. Auto Theft does not follow the same pattern and appeared to be scattered all over the city.
+    ![scatter-auto](Image-Output/autoTheft_map.png) 
+    ![scatter-bne](Image-Output/BnE_map.png)     
+    ![scatter-robbery](Image-Output/robbery_map.png) 
 
 #### 4. In what kinds of properties do the following crimes occur? (house, commercial, apartment, etc)
 - **Break-and-enter**
@@ -131,6 +142,7 @@ The following questions were asked of the data:
 - **Correlation of crime with current economy**
     - The number of crimes occurred in Toronto has weak correlation with GDP growth rate.
     - The GDP has stable growth rate.
+    ![crime-gdp](Image-Output/GDP%growth-vs-monthly-crimes-linear-regression.png)  
 
 
 
