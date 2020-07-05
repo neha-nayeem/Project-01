@@ -142,7 +142,7 @@ The following questions were asked of the data:
 - **Correlation of crime with current economy**
     - The number of crimes occurred in Toronto has weak correlation with GDP growth rate.
     - The GDP has stable growth rate.
-    ![crime-gdp](Image-Output/GDP%growth-vs-monthly-crimes-linear-regression.png)  
+    ![crime-gdp](Image-Output/GDP-growth-vs-monthly-crimes-linear-regression.png)  
 
 
 
